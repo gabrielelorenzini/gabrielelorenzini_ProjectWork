@@ -1,0 +1,610 @@
+File - index.html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Report di Sostenibilità - Mutti S.p.A.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pagina per la consultazione e il download dei report di sostenibilità di Mutti S.p.A.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Intestazione principale con logo e menu -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <!-- Logo testuale (sostituibile con <img>) -->
+        <span class="brand-logo" aria-hidden="true">M</span>
+        <div class="brand-text">
+          <h1>Mutti S.p.A.</h1>
+          <p>Report di sostenibilità</p>
+        </div>
+      </div>
+
+      <nav class="site-nav" aria-label="Navigazione principale">
+        <a href="#report" class="nav-link">Report</a>
+        <a href="#informazioni" class="nav-link">Perché la sostenibilità</a>
+        <a href="#contatti" class="nav-link">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sezione introduttiva -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h2 id="hero-title">Trasparenza e sostenibilità lungo la filiera del pomodoro</h2>
+          <p>
+            In questa pagina puoi consultare e scaricare i report di sostenibilità di Mutti S.p.A.,
+            documenti ufficiali che raccontano gli impegni e i risultati dell’azienda in ambito
+            ambientale, sociale e di governance (ESG).
+          </p>
+          <p>
+            I report sono disponibili in formato PDF e possono essere utilizzati da consumatori,
+            istituzioni, partner di filiera e studenti per approfondire le politiche di responsabilità d’impresa.
+          </p>
+          <a href="#report" class="btn-primary">Vai ai report</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione con l'elenco dei report scaricabili -->
+    <section id="report" class="section section-reports" aria-labelledby="report-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="report-title">Report disponibili</h2>
+          <p>
+            Seleziona l’anno di tuo interesse per scaricare il documento completo in formato PDF.
+          </p>
+        </header>
+
+        <div class="reports-grid" role="list">
+          <!-- Card report 2023 -->
+          <article class="report-card" role="listitem">
+            <header class="report-header">
+              <p class="report-year">2023</p>
+              <h3>Primo Bilancio di Sostenibilità Mutti</h3>
+            </header>
+            <p class="report-meta">
+              Primo report ESG completo dell’azienda, con la formalizzazione della Green Strategy e
+              un inquadramento integrato di performance ambientali, sociali e di governance.
+            </p>
+            <ul class="report-tags" aria-label="Temi principali del report 2023">
+              <li>Green Strategy</li>
+              <li>ESG</li>
+              <li>Filiera integrata</li>
+            </ul>
+            <a class="btn-secondary"
+               href="documenti/Mutti_Report_Sostenibilita_2023.pdf"
+               aria-label="Scarica il Report di Sostenibilità 2023 in formato PDF">
+              Scarica il PDF
+            </a>
+          </article>
+
+          <!-- Card report 2022 -->
+          <article class="report-card" role="listitem">
+            <header class="report-header">
+              <p class="report-year">2022</p>
+              <h3>Bilancio Ambientale 2022</h3>
+            </header>
+            <p class="report-meta">
+              Bilancio focalizzato sulle performance ambientali di stabilimento: consumi energetici,
+              emissioni di gas serra, gestione della risorsa idrica e progetti di efficientamento.
+            </p>
+            <ul class="report-tags" aria-label="Temi principali del report 2022">
+              <li>Energia</li>
+              <li>Emissioni CO₂</li>
+              <li>Acqua</li>
+            </ul>
+            <a class="btn-secondary"
+               href="documenti/Mutti_Bilancio_Ambientale_2022.pdf"
+               aria-label="Scarica il Bilancio Ambientale 2022 in formato PDF">
+              Scarica il PDF
+            </a>
+          </article>
+
+          <!-- Card report 2021 (esempio) -->
+          <article class="report-card" role="listitem">
+            <header class="report-header">
+              <p class="report-year">2021</p>
+              <h3>Bilancio Ambientale 2021</h3>
+            </header>
+            <p class="report-meta">
+              Report con i principali indicatori su acqua, energia, packaging ed economia circolare
+              lungo la filiera del pomodoro da industria.
+            </p>
+            <ul class="report-tags" aria-label="Temi principali del report 2021">
+              <li>Packaging</li>
+              <li>Economia circolare</li>
+              <li>Filiera agricola</li>
+            </ul>
+            <a class="btn-secondary"
+               href="documenti/Mutti_Bilancio_Ambientale_2021.pdf"
+               aria-label="Scarica il Bilancio Ambientale 2021 in formato PDF">
+              Scarica il PDF
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione di contestualizzazione -->
+    <section id="informazioni" class="section section-info" aria-labelledby="info-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="info-title">Perché una pagina dedicata alla sostenibilità</h2>
+        </header>
+        <div class="info-grid">
+          <article class="info-block">
+            <h3>Trasparenza verso gli stakeholder</h3>
+            <p>
+              Rendere facilmente accessibili i report di sostenibilità significa offrire dati
+              certificati e verificabili su impatti ambientali, sociali e di governance.
+            </p>
+          </article>
+          <article class="info-block">
+            <h3>Valore per l’impresa</h3>
+            <p>
+              Una comunicazione digitale chiara sui temi ESG contribuisce a rafforzare la reputazione
+              aziendale e a supportare decisioni basate sui dati.
+            </p>
+          </article>
+          <article class="info-block">
+            <h3>Risorsa per studio e ricerca</h3>
+            <p>
+              La pagina può essere utilizzata come riferimento in ambito accademico e formativo,
+              facilitando il confronto dei report nel tempo.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione contatti -->
+    <section id="contatti" class="section section-contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="contacts-title">Richiesta informazioni</h2>
+          <p>
+            Per approfondimenti sui contenuti dei report o richieste specifiche, è possibile fare
+            riferimento a un indirizzo e-mail dedicato alla sostenibilità aziendale.
+          </p>
+        </header>
+
+        <div class="contact-card" role="form" aria-label="Modulo di contatto esemplificativo">
+          <p class="contact-label">E-mail dedicata alla sostenibilità</p>
+          <a class="contact-mail"
+             href="mailto:sostenibilita@mutti.it?subject=Richiesta%20informazioni%20report%20di%20sostenibilit%C3%A0">
+            sostenibilita@mutti.it
+          </a>
+          <p class="contact-note">
+            L’indirizzo è inserito a scopo dimostrativo nell’ambito del project work.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer della pagina -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        Pagina prototipale realizzata a fini didattici nell’ambito del project work
+        “Tecnologia web per la sostenibilità d’impresa”.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+File - styles.css
+/* =========================
+   Stili di base e variabili
+   ========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-red: #c8102e;
+  --brand-red-dark: #a00f26;
+  --brand-bg-light: #fff4f2;
+  --text-main: #222222;
+  --text-muted: #555555;
+  --border-soft: #e0e0e0;
+  --bg-soft: #f7f7f7;
+  --white: #ffffff;
+  --max-width: 1100px;
+  --radius-lg: 12px;
+  --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* =========================
+   Header e navigazione
+   ========================= */
+
+.site-header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--border-soft);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(8px);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: var(--brand-red);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.brand-text h1 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.brand-text p {
+  font-size: 0.8rem;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: var(--brand-bg-light);
+  color: var(--brand-red);
+  outline: none;
+}
+
+/* =========================
+   Sezione hero
+   ========================= */
+
+.hero {
+  background: linear-gradient(135deg, var(--brand-bg-light), #ffffff);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.hero-content {
+  padding: 2.5rem 1.25rem 2rem;
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+.hero-text h2 {
+  font-size: 1.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-text p {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Pulsanti
+   ========================= */
+
+.btn-primary,
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  transition: transform 0.1s ease,
+    box-shadow 0.1s ease,
+    background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--brand-red);
+  color: var(--white);
+  box-shadow: var(--shadow-soft);
+  margin-top: 0.5rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--brand-red-dark);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.btn-secondary {
+  background-color: var(--bg-soft);
+  color: var(--brand-red-dark);
+  border: 1px solid var(--border-soft);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--brand-bg-light);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+/* =========================
+   Sezioni generiche
+   ========================= */
+
+.section {
+  padding: 2.25rem 0;
+}
+
+.section-header h2 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.section-header p {
+  margin-top: 0;
+  color: var(--text-muted);
+  max-width: 650px;
+}
+
+/* =========================
+   Sezione report
+   ========================= */
+
+.section-reports {
+  background-color: #ffffff;
+}
+
+.reports-grid {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.report-card {
+  background-color: var(--bg-soft);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.report-header {
+  margin-bottom: 0.75rem;
+}
+
+.report-year {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--brand-bg-light);
+  color: var(--brand-red-dark);
+  margin: 0 0 0.35rem 0;
+}
+
+.report-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.report-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.report-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.85rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.report-tags li {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background-color: #ffffff;
+  border: 1px solid var(--border-soft);
+}
+
+/* =========================
+   Sezione info
+   ========================= */
+
+.section-info {
+  background-color: var(--bg-soft);
+}
+
+.info-grid {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-block {
+  background-color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid var(--border-soft);
+}
+
+.info-block h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.info-block p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Sezione contatti
+   ========================= */
+
+.section-contacts {
+  background-color: #ffffff;
+}
+
+.contact-card {
+  margin-top: 1.5rem;
+  background-color: var(--bg-soft);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid var(--border-soft);
+}
+
+.contact-label {
+  margin: 0 0 0.35rem 0;
+  font-weight: 600;
+}
+
+.contact-mail {
+  font-size: 0.95rem;
+  color: var(--brand-red-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.contact-note {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+.site-footer {
+  border-top: 1px solid var(--border-soft);
+  background-color: #ffffff;
+}
+
+.footer-content {
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Responsività
+   ========================= */
+
+@media (max-width: 900px) {
+  .reports-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .site-nav {
+    display: none; /* semplificazione nel prototipo su schermi piccoli */
+  }
+
+  .hero-text h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .reports-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    padding-top: 1.75rem;
+  }
+
+  .brand-text h1 {
+    font-size: 1rem;
+  }
+}
